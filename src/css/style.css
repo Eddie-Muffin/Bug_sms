@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.wrapper{
+    height: 590px;
+
+}
+
+/*header section*/
+header{
+    height: 70px;    
+    background-color: blue;
+    box-shadow: 5px 0px 10px 0px rgba(0,23,25);
+    border-radius: 0 0 0 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+nav {
+    display: flex;
+    justify-content: end;
+}
+nav .contact {
+    list-style: none;
+    align-items: end;
+ }
+ nav .contact a{
+    color: red;
+    font-size: 1.8em;
+    text-transform: capitalize;
+    text-decoration:none;
+    font-weight: 800;
+    position: relative;
+    left: 350px;
+ }
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+
+}
+nav ul li{
+    margin-right: 30px;
+}
+nav ul li a{
+    font-size: 1.5em;
+    color: yellow;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/*typography*/
+h1{
+    color: yellow;
+    text-transform: uppercase;
+    position: relative;
+    top: -50px;
+    left: 15px;
+    font-family: cursive;
+
+}
+h3{
+    color: yellow;
+    text-transform: uppercase;
+    position: relative;
+    top: -50px;
+    left: 200px;
+    font-family: cursive;
+}
+.txtD,  p{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.2em;
+    
+}
+
+
+/*login section*/
+.login_wrap{
+   border: 2px solid black; 
+   border-radius: 0 0 0 50px;
+   height: 430px;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   right: -600px;
+   top: 150px;
+   background:blue;
+   border: 0;
+}
+form{
+    position: relative;
+    right: -70px;
+    top: -20px;
+}
+/*logo box section*/
+.lBox{
+    position: relative;
+    left: 50px;
+
+}
+.lBox p{
+    color: #fff;
+    align-items: center;
+    margin-top: .5em;
+}
+.logo{
+    width: 75%;
+    border: 1px solid floralwhite;
+    height: 210px;
+    border-style: dotted;
+    background-image: url("/sms/src/assests/imgs/logo_sms.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+
+}
+
+.txtD{
+    width: 25%;
+    border: 1px solid black;
+    height: 110px;
+    position: relative;
+    top: -180px;
+    border: 0;
+    border-radius: 0 20px 0 80px;
+    background-color: rgb(236, 235, 138);
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 12);
+    left: 30px;
+    align-content: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+/*select section*/
+select{
+   font-size: 1.5em; 
+   text-transform: capitalize;
+   padding: .2em;
+   border-top: 0;
+   border-right: 0;
+   border-left: 0;
+   border-bottom: 1px yellow solid;
+   background: transparent;
+   color: #fff;
+   margin-top: 10px;
+}
+select:focus{
+    outline: none;
+}
+option{
+    background: purple;
+
+}
+
+/*input sections*/
+input{
+    border-top: 0;
+    border-right:0;
+    border-left: 0;
+    border-bottom: 1px yellow solid;
+    font-size: 1.5em;
+    background: transparent;
+    color: #fff;
+}
+input:focus{
+    outline: none;
+}
+label{
+    font-size: 1.5em;
+    color: #fff;
+}
+
+@keyframes settingIn{
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    70%{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+    }
+}

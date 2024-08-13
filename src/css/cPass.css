@@ -1,0 +1,50 @@
+/* Container for the form */
+form {
+    max-width: 500px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding around the form */
+    border-radius: 8px; /* Round the corners of the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: #f9f9f9; /* Light background color */
+    position: relative;
+    top: 100px;
+}
+
+/* Style for each row in the form */
+.row {
+    margin-bottom: 15px; /* Space between rows */
+}
+
+/* Style for labels */
+label {
+    font-weight: bold; /* Make labels bold */
+    color: #333; /* Dark color for labels */
+}
+
+/* Style for input fields */
+input[type="password"] {
+    width: 100%; /* Make input fields fill the container */
+    padding: 10px; /* Add padding inside input fields */
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 4px; /* Round the corners of the input fields */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+    width: 100%; /* Make button fill the container */
+    padding: 10px; /* Add padding inside the button */
+    background-color: #007bff; /* Primary color for the button */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Round the corners of the button */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px; /* Increase font size */
+    margin-top: 10px;
+}
+
+/* Style for the button on hover */
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
